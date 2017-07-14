@@ -1,0 +1,22 @@
+{
+  "name": "LearnModule",
+  "version": "0.1.0",
+  "summary": "A short description of LearnModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/silence-majority/LearnModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "silence-majority": "931968649@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/silence-majority/LearnModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LearnModule/Classes/**/*"
+}
