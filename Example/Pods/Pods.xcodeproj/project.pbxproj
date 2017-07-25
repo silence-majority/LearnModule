@@ -11,6 +11,8 @@
 		2FECF583A23D6AC837A30363934A450F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		312CAF5B1F18635D008A4D2A /* MyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 312CAF591F18635D008A4D2A /* MyViewController.h */; };
 		312CAF5C1F18635D008A4D2A /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312CAF5A1F18635D008A4D2A /* MyViewController.m */; };
+		31F6E6031F271F920029DF58 /* SecondSubmitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F6E6011F271F920029DF58 /* SecondSubmitViewController.h */; };
+		31F6E6041F271F920029DF58 /* SecondSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F6E6021F271F920029DF58 /* SecondSubmitViewController.m */; };
 		3CC7B04B20B008D0E21C2D03FEA8BC6C /* Pods-LearnModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C20C7757B09A1E4A6A677D931C810F /* Pods-LearnModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4659FC960CF7E471D4B61878DCE31169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4762E896DD030B0A7B8DC3904D5153AB /* LearnModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD233B5461F364586B4F264DB47C4223 /* LearnModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +38,8 @@
 		25388A21742D272526E5D7A0181D0B3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312CAF591F18635D008A4D2A /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		312CAF5A1F18635D008A4D2A /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		31F6E6011F271F920029DF58 /* SecondSubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondSubmitViewController.h; sourceTree = "<group>"; };
+		31F6E6021F271F920029DF58 /* SecondSubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondSubmitViewController.m; sourceTree = "<group>"; };
 		32C75493BCA39E94AA69607E319F707C /* Pods-LearnModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearnModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		330EBFA13B766319D8D4A0688C27A0AB /* LearnModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LearnModule-dummy.m"; sourceTree = "<group>"; };
 		36215C021C1BC3DCD95D544FB7A30F19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				312CAF591F18635D008A4D2A /* MyViewController.h */,
 				312CAF5A1F18635D008A4D2A /* MyViewController.m */,
+				31F6E6011F271F920029DF58 /* SecondSubmitViewController.h */,
+				31F6E6021F271F920029DF58 /* SecondSubmitViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4762E896DD030B0A7B8DC3904D5153AB /* LearnModule-umbrella.h in Headers */,
+				31F6E6031F271F920029DF58 /* SecondSubmitViewController.h in Headers */,
 				312CAF5B1F18635D008A4D2A /* MyViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +358,7 @@
 			files = (
 				312CAF5C1F18635D008A4D2A /* MyViewController.m in Sources */,
 				C4C5E549994D92234C55BFFEBC49BC94 /* LearnModule-dummy.m in Sources */,
+				31F6E6041F271F920029DF58 /* SecondSubmitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
