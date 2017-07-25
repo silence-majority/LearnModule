@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@git.jiayouxueba.com:gc/XYSpecs.git'
+
 target 'LearnModule_Example' do
   pod 'LearnModule', :path => '../'
 

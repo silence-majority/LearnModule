@@ -1,5 +1,9 @@
 PODS:
-  - LearnModule (0.1.0)
+  - LearnModule (0.3.0):
+    - XQSBaseUIKit
+  - Masonry (1.0.2)
+  - XQSBaseUIKit (0.7.0):
+    - Masonry
 
 DEPENDENCIES:
   - LearnModule (from `../`)
@@ -9,8 +13,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LearnModule: d5c173f21f211439b36d53967702e62b95c0a40a
+  LearnModule: 3e8b83d85d1108a68d1bc67482920360d3169796
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  XQSBaseUIKit: 761e1316c9ed0601007ddc189b7af8155d60716c
 
-PODFILE CHECKSUM: d77476cb663b2b213a2e0f5f5035d1a7eaf7c9df
+PODFILE CHECKSUM: 6e4d9b008fc2f8f7ada5ee3d5f176fa63c0956d4
 
 COCOAPODS: 1.0.1

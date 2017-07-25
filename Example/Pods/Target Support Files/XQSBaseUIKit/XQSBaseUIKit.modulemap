@@ -1,0 +1,6 @@
+framework module XQSBaseUIKit {
+  umbrella header "XQSBaseUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

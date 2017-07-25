@@ -85,7 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/LearnModule/LearnModule.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/XQSBaseUIKit/XQSBaseUIKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/LearnModule/LearnModule.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/XQSBaseUIKit/XQSBaseUIKit.framework"
 fi
